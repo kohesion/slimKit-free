@@ -14,9 +14,9 @@ slimKit is library agnostic, written in plain vanilla javascript. No jquery requ
 I only support the latest two major versions of each browser. Wider browser support is available as a customization service.
 
 Why would you choose slimKit over bootstrap or jquery-ui? 
-1) no commitment to an underlying framework / library
-2) this library is meticulously maintained by one person, the code is not going to get hacked up by 20 people.
-3) I don't do code / feature bloat, I believe in keeping it simple, complexity is for customization.
-4) If you need something more complicated or wider browser support, I offer customization service (hourly)
-5) I only support modern browsers by default resulting in simpler more elegant and efficient code
-6) I've been working with browser technology and/or javascript since 1996
+1) no commitment to an underlying framework / library<br>
+2) this library is meticulously maintained by one person, the code is not going to get hacked up by 20 people.<br>
+3) I don't do code / feature bloat, I believe in keeping it simple, complexity is for customization.<br>
+4) If you need something more complicated or wider browser support, I offer customization service (hourly)<br>
+5) I only support modern browsers by default resulting in simpler more elegant and efficient code<br>
+6) I've been working with browser technology and/or javascript since 1996<br>
