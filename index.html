@@ -44,6 +44,142 @@
 <li>SPA friendly - widgets are resilient enough to withstand DOM Mutation</li>
 </ul>
       </section>
+      <section style="overflow: hidden;" class="inner">
+        <h1>Demos tableTree</h1>
+        <script src="https://rawgit.com/kohesion/slimKit-free/master/js/tableTree.min.js"></script>
+    <table id="tableRecipes" style="min-width: 300px;">
+      <caption style="text-align: left;">Recipes</caption>
+      <thead>
+        <tr>
+          <th>Recipe</th>
+          <th>col 2</th>
+          <th>col 3</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr itemReference="1">
+          <td>Spring</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr itemReference="21" parentItemReference="1">
+          <td>Appetizers</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr itemReference="22" parentItemReference="1">
+          <td>Entrees</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr itemReference="2">
+          <td>Summer</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr itemReference="23" parentItemReference="2">
+          <td>Appetizers</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr itemReference="24" parentItemReference="2">
+          <td>Entrees</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr itemReference="3">
+          <td>Autumn</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr itemReference="25" parentItemReference="3">
+          <td>Appetizers</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr itemReference="26" parentItemReference="3">
+          <td>Entrees</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr itemReference="4">
+          <td>Winter</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr itemReference="27" parentItemReference="4">
+          <td>Appetizers</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr itemReference="28" parentItemReference="4">
+          <td>Entrees</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr itemReference="41" parentItemReference="28">
+          <td>French Onion Soup</td>
+          <td></td>
+          <td></td>
+        </tr>
+                <tr itemReference="42" parentItemReference="28">
+                        <td>Hot Chocolate</td>
+                        <td></td>
+                        <td></td>
+                </tr>
+                <tr itemReference="43" parentItemReference="28">
+                        <td>Chili</td>
+                        <td></td>
+                        <td></td>
+                </tr>
+      </tbody>
+    </table>
+
+    <table id="tableQuizzes" style="min-width: 300px; margin-top: 20px;">
+      <caption style="text-align: left;">Quizzes</caption>
+      <thead>
+        <tr>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr itemReference="1">
+          <td>Monday</td>
+        </tr>
+        <tr itemReference="11" parentItemReference="1">
+          <td>Bird Quiz</td>
+        </tr>
+        <tr itemReference="12" parentItemReference="1">
+          <td>Dog Quiz</td>
+        </tr>
+        <tr itemReference="2">
+          <td>Tuesday</td>
+        </tr>
+        <tr itemReference="13" parentItemReference="2">
+          <td>Hamster Quiz</td>
+        </tr>
+        <tr itemReference="14" parentItemReference="2">
+          <td>Cat Quiz</td>
+        </tr>
+        <tr itemReference="3">
+          <td>Wednesday</td>
+        </tr>
+        <tr itemReference="15" parentItemReference="3">
+          <td>Snake Quiz</td>
+        </tr>
+        <tr itemReference="16" parentItemReference="3">
+          <td>Lizard Quiz</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <script>
+      var treeRecipes = new slimKit.tableTree(tableRecipes);
+//      tableTreeDraggable.setup(tableRecipes);
+
+      var treeQuizzes = new slimKit.tableTree(tableQuizzes);
+    </script>        
+      </section>
     </div>
 
     <!-- FOOTER  -->
