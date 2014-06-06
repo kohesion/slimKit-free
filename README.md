@@ -3,6 +3,8 @@ slimKit-free version 0.1
 
 The free version - Contains only minified / gzipped code
 
+Demo here: http://kohesion.github.io/slimKit-free/
+
 slimKit is a collection of UI widgets / helper functions I wrote and have been using / maintaining professionally for years (some since 2001) for clients. I am in the process of adapting them for public consumption.
 
 My approach to coding is minimalistic. These widgets are not Swiss Army knives, each widget does just one thing (well) with a small number of configuration options.
